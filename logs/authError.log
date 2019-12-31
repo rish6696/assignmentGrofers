@@ -1,0 +1,12 @@
+[2019-11-07T02:10:39.897] [ERROR] authInfo - Error: No pem found for envelope: {"alg":"HS256","typ":"JWT"}
+    at OAuth2Client.verifySignedJwtWithCertsAsync (/home/rishabh/webprojects/wechat/node_modules/google-auth-library/build/src/auth/oauth2client.js:535:19)
+    at OAuth2Client.verifyIdTokenAsync (/home/rishabh/webprojects/wechat/node_modules/google-auth-library/build/src/auth/oauth2client.js:394:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-12-30T23:06:58.028] [ERROR] authInfo - Error: No pem found for envelope: {"alg":"HS256","typ":"JWT"}
+    at OAuth2Client.verifySignedJwtWithCertsAsync (/home/rishabh/reactNativeUdemy/grofersBackend/node_modules/google-auth-library/build/src/auth/oauth2client.js:535:19)
+    at OAuth2Client.verifyIdTokenAsync (/home/rishabh/reactNativeUdemy/grofersBackend/node_modules/google-auth-library/build/src/auth/oauth2client.js:394:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
+[2019-12-30T23:15:02.124] [ERROR] authInfo - Error: No pem found for envelope: {"alg":"HS256","typ":"JWT"}
+    at OAuth2Client.verifySignedJwtWithCertsAsync (/home/rishabh/reactNativeUdemy/grofersBackend/node_modules/google-auth-library/build/src/auth/oauth2client.js:535:19)
+    at OAuth2Client.verifyIdTokenAsync (/home/rishabh/reactNativeUdemy/grofersBackend/node_modules/google-auth-library/build/src/auth/oauth2client.js:394:34)
+    at process._tickCallback (internal/process/next_tick.js:68:7)
