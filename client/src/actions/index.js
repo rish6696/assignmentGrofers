@@ -19,7 +19,7 @@ function GoogleSignIn(GoogleSignin, statusCodes, navigation) {
     try {
       const avail = await GoogleSignin.hasPlayServices();
       const userInfo = await GoogleSignin.signIn();
-      const { data } = await apisinGoogle(userInfo.idToken, 'google')
+      const { data } = await apis.loginGoogle(userInfo.idToken, 'google')
       await AsyncStorage.setItem(Constants.CURRENT_USER, JSON.stringify(data))
       dispatch({ type: Types.GOOGLE_SIGNIN_COMPLETE, payload: data })
       navigation.navigate('mainFlow');
