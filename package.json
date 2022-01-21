@@ -23,7 +23,7 @@
     "google-auth-library": "^5.2.0",
     "joi": "^14.3.1",
     "jsonwebtoken": "^8.5.1",
-    "log4js": "^5.3.0",
+    "log4js": "^6.4.0",
     "mongoose": "^5.6.11",
     "pm2": "^3.5.1",
     "save": "^2.4.0"
